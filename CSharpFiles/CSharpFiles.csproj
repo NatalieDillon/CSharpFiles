@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpFiles.Classes\CSharpFiles.Classes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Files\DiaryEvents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
