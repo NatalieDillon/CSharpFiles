@@ -1,6 +1,6 @@
 ## CSharpFiles
 
-Look at and run the example code which reads and writes to text files and binary files and makes use of records and dictionaries.
+Look at and run the example code which reads and writes to text files and binary files and makes use of records and dictionaries.<br/>
 Then complete the exercises below.
 
 ### 1. Sentences
