@@ -4,11 +4,11 @@ Look at and run the example code which reads and writes to text files and binary
 Then complete the exercises below.
 
 ### 1. Sentences
-Create a sub program to ask the user for several sentences (until they just press Enter with an empty string)
-Store them in a text file named "sentences.txt" 
-Extend this to take in the file name as a parameter to the sub program 
-Check if the file already exists, if it does, return a suitable message 
-if the file exists, the new content should be appended to its end, otherwise create a new one. 
+Create a sub program to ask the user for several sentences (until they just press Enter with an empty string)<br/>
+Store them in a text file named "sentences.txt"<br/> 
+Extend this to take in the file name as a parameter to the sub program<br/> 
+Check if the file already exists, if it does, return a suitable message<br/> 
+If the file exists, the new content should be appended to its end, otherwise create a new one.<br/> 
 
 ### 2. Stations
 Using the file ‘stations.txt’ create program(s) to do the following:
