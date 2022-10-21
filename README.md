@@ -1,6 +1,8 @@
-## CSharpFiles - <br>
+## CSharpFiles
 
-### 1.Sentences
+Look at and run the example code which reads and writes to text files and binary files and makes use of records and dictionaries.
+
+### 1. Sentences
 Create a sub program to ask the user for several sentences (until they just press Enter with an empty string)
 Store them in a text file named "sentences.txt" 
 Extend this to take in the file name as a parameter to the sub program 
@@ -8,7 +10,7 @@ Check if the file already exists, if it does, return a suitable message
 if the file exists, the new content should be appended to its end, otherwise create a new one. 
 
 ### 2. Stations
-Using the file ‘stations.txt’ create program(s) to do the following:
+Using the file â€˜stations.txtâ€™ create program(s) to do the following:
 
 Output how many stations there are on each tube line. (A dictionary data structure may be useful)
 
