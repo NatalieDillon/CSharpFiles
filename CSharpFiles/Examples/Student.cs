@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpFiles.Classes
+namespace CSharpFiles.Examples
 {
     public class Student
     {
