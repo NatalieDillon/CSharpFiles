@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace CSharpFiles.Examples
@@ -11,6 +12,7 @@ namespace CSharpFiles.Examples
         public static void Run()
         {
             TextFileExample();
+            DictionaryExample();
             BinaryFileExample();
         }
 
@@ -36,6 +38,36 @@ namespace CSharpFiles.Examples
 
                 Console.WriteLine();
             }
+        }
+
+        private static void DictionaryExample()
+        {
+            string fileName = @"Files\FileInfo.txt";
+
+            if (File.Exists(fileName))
+            {
+               string fileContents = File.ReadAllText(fileName);
+               Regex regex = new Regex(@"\s");
+               string[] words = regex.Split(fileContents);
+               Dictionary<string, int> wordFrequency = new Dictionary<string, int>();
+               foreach (string word in words)
+                {
+                    if (!string.IsNullOrEmpty(word))
+                    {
+                        if (wordFrequency.ContainsKey(word))
+                        {
+                            wordFrequency[word]++;
+                        }
+                        else
+                        {
+                            wordFrequency.Add(word, 1);
+                        }
+                    }
+                }
+                var topTenWords = wordFrequency.OrderByDescending(x => x.Value).Take(10).ToList();
+                topTenWords.ForEach(t => Console.WriteLine($"{t.Key} {t.Value}"));
+            }
+            Console.WriteLine();
         }
 
         private static void BinaryFileExample()

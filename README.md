@@ -1,14 +1,30 @@
-## CSharpConcepts - An introduction to basic C# concepts<br>
+## CSharpFiles - <br>
 
-### 1. Type Exercises<br>
-Complete the exercises in TypeExercises.cs<br>
-Add code to call and test your subprograms in Exercises.cs<br>
-Extension: Q1 from https://olympiad.org.uk/papers/2000/bio/bio2kex.pdf<br>
-Extension: Q1 from https://olympiad.org.uk/papers/2002/bio/bio02ex.pdf<br>
+### 1.Sentences
+Create a sub program to ask the user for several sentences (until they just press Enter with an empty string)
+Store them in a text file named "sentences.txt" 
+Extend this to take in the file name as a parameter to the sub program 
+Check if the file already exists, if it does, return a suitable message 
+if the file exists, the new content should be appended to its end, otherwise create a new one. 
 
-### 2. Selection Exercises<br>
-Complete the exercises in SelectionExercises.cs<br>
-Add code to call and test your subprograms in Exercises.cs<br>
-Extension: Q1 from https://olympiad.org.uk/papers/2001/bio/bio01ex.pdf<br>
+### 2. Stations
+Using the file ‘stations.txt’ create program(s) to do the following:
 
+Output how many stations there are on each tube line. (A dictionary data structure may be useful)
+
+Output which tube stations share no letters with the following words: 
+Mackerel
+Piranha
+Sturgeon
+Bacteria 
+
+Output which tube stations are formed of two words, each beginning with the same letter? 
+
+### 3. Transactions
+Using the banking transaction from our work on objects as an example, model an account transaction as a simple record
+Write some example transactions to a csv file and read them again
+
+### 4. Decimal Numbers
+Create a subprogram to generate a list of random doubles (between 1 and a given limit). Write these to a binary file.
+Then read the binary file and output it both as the bytes and converted back to doubles.
 
