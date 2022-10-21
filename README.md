@@ -21,8 +21,8 @@ Bacteria
 Output which tube stations are formed of two words, each beginning with the same letter? 
 
 ### 3. Transactions
-Using the banking transaction from our work on objects as an example, model an account transaction as a simple record
-Write some example transactions to a csv file and read them again
+Using the banking transaction from our work on objects as an example, model an account transaction as a simple record rather than a class.
+Write some example transactions to a csv file and read them back again
 
 ### 4. Decimal Numbers
 Create a subprogram to generate a list of random doubles (between 1 and a given limit). Write these to a binary file.
